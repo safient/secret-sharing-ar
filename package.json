@@ -1,0 +1,25 @@
+{
+  "name": "secure-sharing-ar",
+  "version": "1.0.0",
+  "description": "Basic implementation of Secret Sharing Mechanism using Anonymous Reconstruction",
+  "main": "index.js",
+  "dependencies": {
+    "eccrypto": "^1.1.5",
+    "ethers": "^5.0.32",
+    "fs-extra": "^9.1.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "ar": "node ar.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joinsafex/secure-sharing-ar.git"
+  },
+  "author": "Koshik Raj",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/joinsafex/secure-sharing-ar/issues"
+  },
+  "homepage": "https://github.com/joinsafex/secure-sharing-ar#readme"
+}
